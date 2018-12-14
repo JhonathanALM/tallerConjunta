@@ -22,7 +22,7 @@ public class Entregable {
     private ObjectId id;
     
     @Property("codigoE")
-    @Indexed(options = @IndexOptions(name = "codigoRol",unique = true))
+    @Indexed(options = @IndexOptions(name = "codigoE",unique = true))
     private String codigoE;
     
     @Property("fechaPlanificada")
